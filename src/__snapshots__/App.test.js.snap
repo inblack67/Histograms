@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders pages histogram correctly 1`] = `[Function]`;
+
+exports[`renders posts histogram correctly 1`] = `[Function]`;
