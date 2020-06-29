@@ -8,6 +8,12 @@ const server = setupServer(
       context.json([{ categories: [10, 56, 77] }])
     )
   }),
+  rest.get('https://www.vdocipher.com/blog/wp-json/wp/v2/pages?per_page=100', (req, res, context) => {
+    return res(
+      context.status(200),
+      context.json([{ categories: [10, 56, 77] }])
+    )
+  }),
   rest.get('*', (req, res, context) => {
     return res(
       context.status(500),
